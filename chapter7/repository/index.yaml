@@ -1,0 +1,51 @@
+apiVersion: v1
+entries:
+  booster:
+  - apiVersion: v2
+    appVersion: 9.17.49
+    created: "2020-07-02T08:44:11.162063-04:00"
+    description: To go even faster.
+    digest: 1aa4fdeea4840df70cafd44af38ef23b7342e17d8346450e9be4f465a31c2fea
+    home: https://wile.example.com/
+    icon: https://wile.example.com/booster.svg
+    keywords:
+    - road runner
+    - booster
+    maintainers:
+    - email: maintainers@example.com
+      name: ACME Corp
+    - email: wile@example.com
+      name: Wile E. Coyote
+    name: booster
+    sources:
+    - https://github.com/masterminds/learning-helm/blob/master/chapter7/booster
+    urls:
+    - booster-1.0.0.tgz
+    version: 1.0.0
+  rocket:
+  - apiVersion: v2
+    appVersion: 9.17.49
+    created: "2020-07-02T08:44:11.163125-04:00"
+    dependencies:
+    - name: booster
+      repository: http://localhost:2015/
+      version: ^1.0.0
+    description: Go fast!
+    digest: c5db0116a145447872b6bc568e3134cb412ce775687b60694d8a32991cd2fa34
+    home: https://wile.example.com/
+    icon: https://wile.example.com/rocket.svg
+    keywords:
+    - road runner
+    - rocket
+    maintainers:
+    - email: maintainers@example.com
+      name: ACME Corp
+    - email: wile@example.com
+      name: Wile E. Coyote
+    name: rocket
+    sources:
+    - https://github.com/masterminds/learning-helm/blob/master/chapter7/rocket
+    urls:
+    - rocket-1.0.0.tgz
+    version: 1.0.0
+generated: "2020-07-02T08:44:11.160882-04:00"

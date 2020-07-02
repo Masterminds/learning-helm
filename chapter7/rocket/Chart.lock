@@ -1,0 +1,6 @@
+dependencies:
+- name: booster
+  repository: https://raw.githubusercontent.com/Masterminds/learning-helm/master/chapter7/repository/
+  version: ^1.0.0
+digest: sha256:44104ca8ba07eba2bf12fad6e847b45139cace7fc4987a50c0e7cd7644e0190a
+generated: "2020-07-02T08:30:51.80243-04:00"
