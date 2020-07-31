@@ -3,7 +3,7 @@ entries:
   booster:
   - apiVersion: v2
     appVersion: 9.17.49
-    created: "2020-07-02T08:44:11.162063-04:00"
+    created: "2020-07-31T08:41:35.841863-04:00"
     description: To go even faster.
     digest: 1aa4fdeea4840df70cafd44af38ef23b7342e17d8346450e9be4f465a31c2fea
     home: https://wile.example.com/
@@ -22,10 +22,47 @@ entries:
     urls:
     - booster-1.0.0.tgz
     version: 1.0.0
+  conditional:
+  - apiVersion: v2
+    appVersion: 9.17.49
+    created: "2020-07-31T08:41:35.845025-04:00"
+    dependencies:
+    - condition: booster.enabled
+      name: booster
+      repository: https://raw.githubusercontent.com/Masterminds/learning-helm/master/chapter7/repository/
+      version: ^1.0.0
+    description: Optional dependency with a conditional
+    digest: d80e3cb8b73e3e21bc13407c17c6d88874eedb986fa1df0e1f48c6c009f29c82
+    home: https://wile.example.com/
+    icon: https://wile.example.com/conditional.svg
+    keywords:
+    - logic
+    - optional
+    maintainers:
+    - email: maintainers@example.com
+      name: ACME Corp
+    - email: wile@example.com
+      name: Wile E. Coyote
+    name: conditional
+    sources:
+    - https://github.com/masterminds/learning-helm/blob/master/chapter7/conditional
+    urls:
+    - conditional-1.0.0.tgz
+    version: 1.0.0
+  mylib:
+  - apiVersion: v2
+    created: "2020-07-31T08:41:35.845326-04:00"
+    description: an example library chart
+    digest: 90965e846fcf3af308a8c8865771537978790f3ce12c0b12a2ba1276458285fa
+    name: mylib
+    type: library
+    urls:
+    - mylib-0.1.0.tgz
+    version: 0.1.0
   rocket:
   - apiVersion: v2
     appVersion: 9.17.49
-    created: "2020-07-02T08:44:11.163125-04:00"
+    created: "2020-07-31T08:41:35.84808-04:00"
     dependencies:
     - name: booster
       repository: http://localhost:2015/
@@ -48,4 +85,37 @@ entries:
     urls:
     - rocket-1.0.0.tgz
     version: 1.0.0
-generated: "2020-07-02T08:44:11.160882-04:00"
+  tag:
+  - apiVersion: v2
+    appVersion: 9.17.49
+    created: "2020-07-31T08:41:35.850497-04:00"
+    dependencies:
+    - name: booster
+      repository: https://raw.githubusercontent.com/Masterminds/learning-helm/master/chapter7/repository/
+      tags:
+      - faster
+      version: ^1.0.0
+    - name: rocket
+      repository: https://raw.githubusercontent.com/Masterminds/learning-helm/master/chapter7/repository/
+      tags:
+      - faster
+      version: ^1.0.0
+    description: Optional dependency with a conditional
+    digest: 9b0da756f6523c912bfd8dde22e0dbac5387a7900b870967e2767a257b09469c
+    home: https://wile.example.com/
+    icon: https://wile.example.com/conditional.svg
+    keywords:
+    - logic
+    - optional
+    maintainers:
+    - email: maintainers@example.com
+      name: ACME Corp
+    - email: wile@example.com
+      name: Wile E. Coyote
+    name: tag
+    sources:
+    - https://github.com/masterminds/learning-helm/blob/master/chapter7/conditional
+    urls:
+    - tag-1.0.0.tgz
+    version: 1.0.0
+generated: "2020-07-31T08:41:35.838675-04:00"

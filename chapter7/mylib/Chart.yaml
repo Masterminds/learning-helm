@@ -1,0 +1,5 @@
+apiVersion: v2
+name: mylib
+type: library
+description: an example library chart
+version: 0.1.0

@@ -1,0 +1,9 @@
+dependencies:
+- name: booster
+  repository: https://raw.githubusercontent.com/Masterminds/learning-helm/master/chapter7/repository/
+  version: 1.0.0
+- name: rocket
+  repository: https://raw.githubusercontent.com/Masterminds/learning-helm/master/chapter7/repository/
+  version: 1.0.0
+digest: sha256:ac780b228d4859fee0c1847d8118c3ef2bc9f8e8c96495aee1b5518df721bd1a
+generated: "2020-07-30T09:16:07.729607-04:00"

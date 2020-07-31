@@ -1,0 +1,28 @@
+apiVersion: v2
+name: tag
+description: Optional dependency with a conditional
+version: 1.0.0
+appVersion: 9.17.49
+icon: https://wile.example.com/conditional.svg
+keywords:
+  - logic
+  - optional
+home: https://wile.example.com/
+sources:
+  - https://github.com/masterminds/learning-helm/blob/master/chapter7/conditional
+maintainers:
+  - name: ACME Corp
+    email: maintainers@example.com
+  - name: Wile E. Coyote
+    email: wile@example.com
+dependencies:
+  - name: booster
+    tags:
+      - faster
+    version: ^1.0.0
+    repository: https://raw.githubusercontent.com/Masterminds/learning-helm/master/chapter7/repository/
+  - name: rocket
+    tags:
+      - faster
+    version: ^1.0.0
+    repository: https://raw.githubusercontent.com/Masterminds/learning-helm/master/chapter7/repository/
