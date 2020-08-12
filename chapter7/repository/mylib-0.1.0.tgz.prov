@@ -1,0 +1,28 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+apiVersion: v2
+description: an example library chart
+name: mylib
+type: library
+version: 0.1.0
+
+...
+files:
+  mylib-0.1.0.tgz: sha256:d312aea39acf7026f39edebd315a11a52d29a96a8d68737ead110ac0c0a1163d
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEcR8o1RDh4Ly9X2v+lDboC/ukaQkFAl8yiesACgkQlDboC/uk
+aQkG2BAAlIEgGI7uu9Kr8j4ZIxDseLmgphhPM1kgnIMPriLieBxFXSJQxciN3+dx
+OQpIfdsFQvW98EnJ4781Pm+leHY2iI/L08O1cQWUtzKhfPEWC65YQJPXkTKpHnC2
+wXYVUVYWvhx6BJ77RiS/f+hoXiC+i1aBqqS0TAG+AqXuwARO2tY/L7cF6EHjsUwD
+pPuTNpYZ/OEWqh1KEYZYVDvLm6uN6QjV4pNTFfAgnvMckfoDLQ+kOPQVqCeUWG3F
+tZO3sBzUg+Ak2dDviSTOFQ7TCifc3tOOaWS1XtcooSOkUENmTeeWV56jZnhK1rT4
+yaIGT16zXZIdmkZ1t5o9VccuAhQ1Us2FhipdGqpD8yDoJABVz/ee9d2zoX8anfR7
+LZ7fwecgQ/THnj54RroyQlzf2aottFiL9ZV4MjUqs0CSoA9+SZ/CcJDd/rxBGI8C
+yxRqo0VoNdjT8Kr9hha13krfwD8IpLH8bv4kWt3Ckh6rgphjUL19xyTHJY7w2toY
+bAeZMl3Y05Ca76EA7XDdoltE57SUS1Zzd+wDRzRD0IZO8KVk+Z5/PzzvV4l9lnDJ
+X63fptInbJpyk0xYKLMFquOY7Yy5mlI9de7424CScePo9Nua3GAakfi4zk3i4Auz
+2eaoU/S5uXt605OydkSLLz99BAyJwmazzf/qPyYcPWMw/b+gHxw=
+=pRcC
+-----END PGP SIGNATURE-----
