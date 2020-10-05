@@ -1,0 +1,4 @@
+name: inspect-templates
+version: 0.1.0
+description: get a summary of a chart's templates
+command: "${HELM_PLUGIN_DIR}/inspect-templates.sh"
