@@ -1,0 +1,8 @@
+name: super-secure
+version: 0.1.0
+description: a super secure chart downloader
+command: "${HELM_PLUGIN_DIR}/super-secure.sh"
+downloaders:
+  - command: "super-secure-downloader.sh"
+    protocols:
+      - "ss"
