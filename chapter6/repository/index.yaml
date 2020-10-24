@@ -3,9 +3,9 @@ entries:
   booster:
   - apiVersion: v2
     appVersion: 9.17.49
-    created: "2020-08-10T07:20:35.376839-04:00"
+    created: "2020-10-24T12:54:12.851328-04:00"
     description: To go even faster.
-    digest: 1aa4fdeea4840df70cafd44af38ef23b7342e17d8346450e9be4f465a31c2fea
+    digest: a14459f72d94032e0d9fcbf486e8c72c60c222d81b2e5b69211a7d4826dc7f7a
     home: https://wile.example.com/
     icon: https://wile.example.com/booster.svg
     keywords:
@@ -25,14 +25,14 @@ entries:
   conditional:
   - apiVersion: v2
     appVersion: 9.17.49
-    created: "2020-08-10T07:20:35.380472-04:00"
+    created: "2020-10-24T12:54:12.852741-04:00"
     dependencies:
     - condition: booster.enabled
       name: booster
       repository: https://raw.githubusercontent.com/Masterminds/learning-helm/master/chapter7/repository/
       version: ^1.0.0
     description: Optional dependency with a conditional
-    digest: d80e3cb8b73e3e21bc13407c17c6d88874eedb986fa1df0e1f48c6c009f29c82
+    digest: 42526690eda827afe5bfa57b4d6d1c65e8f93c7e45329bf509beb3c4cd52c7b2
     home: https://wile.example.com/
     icon: https://wile.example.com/conditional.svg
     keywords:
@@ -51,7 +51,7 @@ entries:
     version: 1.0.0
   mylib:
   - apiVersion: v2
-    created: "2020-08-10T07:20:35.381049-04:00"
+    created: "2020-10-24T12:54:12.853-04:00"
     description: an example library chart
     digest: d312aea39acf7026f39edebd315a11a52d29a96a8d68737ead110ac0c0a1163d
     name: mylib
@@ -62,13 +62,13 @@ entries:
   rocket:
   - apiVersion: v2
     appVersion: 9.17.49
-    created: "2020-08-10T07:20:35.383277-04:00"
+    created: "2020-10-24T12:54:12.854114-04:00"
     dependencies:
     - name: booster
-      repository: http://localhost:2015/
+      repository: https://raw.githubusercontent.com/Masterminds/learning-helm/master/chapter7/repository/
       version: ^1.0.0
     description: Go fast!
-    digest: c5db0116a145447872b6bc568e3134cb412ce775687b60694d8a32991cd2fa34
+    digest: 51760d66b78a22296d5b5192798c518982ed86d5e2df4e603dc7101c9d131f0a
     home: https://wile.example.com/
     icon: https://wile.example.com/rocket.svg
     keywords:
@@ -88,7 +88,7 @@ entries:
   tag:
   - apiVersion: v2
     appVersion: 9.17.49
-    created: "2020-08-10T07:20:35.389224-04:00"
+    created: "2020-10-24T12:54:12.856147-04:00"
     dependencies:
     - name: booster
       repository: https://raw.githubusercontent.com/Masterminds/learning-helm/master/chapter7/repository/
@@ -101,7 +101,7 @@ entries:
       - faster
       version: ^1.0.0
     description: Optional dependency with a conditional
-    digest: 9b0da756f6523c912bfd8dde22e0dbac5387a7900b870967e2767a257b09469c
+    digest: 7a8f8074a5aa9bf609c7220c02a9a356c871c2e46b8a845d2a74f8838892afd3
     home: https://wile.example.com/
     icon: https://wile.example.com/conditional.svg
     keywords:
@@ -118,4 +118,4 @@ entries:
     urls:
     - tag-1.0.0.tgz
     version: 1.0.0
-generated: "2020-08-10T07:20:35.370291-04:00"
+generated: "2020-10-24T12:54:12.849277-04:00"
