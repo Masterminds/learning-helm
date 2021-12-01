@@ -9,7 +9,7 @@ keywords:
   - booster
 home: https://wile.example.com/
 sources:
-  - https://github.com/masterminds/learning-helm/blob/master/chapter7/booster
+  - https://github.com/masterminds/learning-helm/blob/master/chapter6/booster
 maintainers:
   - name: ACME Corp
     email: maintainers@example.com
