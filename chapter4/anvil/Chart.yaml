@@ -9,7 +9,7 @@ keywords:
   - anvil
 home: https://wile.example.com/
 sources:
-  - https://github.com/masterminds/learning-helm/blob/master/chapter5/anvil
+  - https://github.com/masterminds/learning-helm/blob/master/chapter4/anvil
 maintainers:
   - name: ACME Corp
     email: maintainers@example.com
