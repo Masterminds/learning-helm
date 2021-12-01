@@ -9,7 +9,7 @@ keywords:
   - optional
 home: https://wile.example.com/
 sources:
-  - https://github.com/masterminds/learning-helm/blob/master/chapter7/conditional
+  - https://github.com/masterminds/learning-helm/blob/master/chapter6/conditional
 maintainers:
   - name: ACME Corp
     email: maintainers@example.com
@@ -20,9 +20,9 @@ dependencies:
     tags:
       - faster
     version: ^1.0.0
-    repository: https://raw.githubusercontent.com/Masterminds/learning-helm/master/chapter7/repository/
+    repository: https://raw.githubusercontent.com/Masterminds/learning-helm/master/chapter6/repository/
   - name: rocket
     tags:
       - faster
     version: ^1.0.0
-    repository: https://raw.githubusercontent.com/Masterminds/learning-helm/master/chapter7/repository/
+    repository: https://raw.githubusercontent.com/Masterminds/learning-helm/master/chapter6/repository/
